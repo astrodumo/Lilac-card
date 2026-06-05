@@ -387,8 +387,8 @@ h1 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #4ade80;
-  box-shadow: 0 0 8px #4ade80;
+  background: #8563ad;
+  box-shadow: 0 0 8px #7c5acb;
   animation: blink 2s ease-in-out infinite;
 }
 
