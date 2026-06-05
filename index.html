@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="lilac-favicon.svg">
+  <title>Join Waitlist | Lilac Card</title>
+  <meta name="description" content="Spend crypto instantly with Lilac Card while keeping it productive. Accepted at 50M+ merchants in 150+ countries. Join the waitlist today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <svg class="preloader-logo" viewBox="-60 -60 120 120" xmlns="http://www.w3.org/2000/svg">
+         <ellipse cx="0" cy="-44" rx="16" ry="44" fill="#dcc8f4" transform="rotate(0)"/>
+        <ellipse cx="0" cy="-44" rx="16" ry="44" fill="#c8aef0" opacity="0.88" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-44" rx="16" ry="44" fill="#b090e0" opacity="0.88" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-44" rx="16" ry="44" fill="#ecdeff" opacity="0.92" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-44" rx="16" ry="44" fill="#9870d0" opacity="0.82" transform="rotate(288)"/>
+        <circle cx="0" cy="0" r="14" fill="#7848c0"/>
+        <circle cx="0" cy="0" r="6" fill="#f8f0ff"/>
+      </svg>
+      <div class="preloader-bar">
+        <div class="preloader-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <svg viewBox="-36 -36 72 72" xmlns="http://www.w3.org/2000/svg">
+       <ellipse cx="0" cy="-26" rx="10" ry="26" fill="#dcc8f4" transform="rotate(0)"/>
+        <ellipse cx="0" cy="-26" rx="10" ry="26" fill="#c8aef0" opacity="0.88" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-26" rx="10" ry="26" fill="#b090e0" opacity="0.88" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-26" rx="10" ry="26" fill="#ecdeff" opacity="0.92" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-26" rx="10" ry="26" fill="#9870d0" opacity="0.82" transform="rotate(288)"/>
+        <circle cx="0" cy="0" r="9" fill="#7848c0"/>
+        <circle cx="0" cy="0" r="4" fill="#f8f0ff"/>
+      </svg>
+      <span class="nav-logo-text">Lilac</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#hero" class="nav-cta">Join waitlist</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-bg-noise"></div>
+    <div class="hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <div class="hero-badge">Coming Soon...</div>
+        <h1>Spend without <span class="h1-gradient">selling</span></h1>
+        <p class="hero-sub">Spend crypto instantly while keeping your balance productive. Accepted at 50M+ merchants in 150+ countries.</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">150+</div>
+            <div class="stat-label">Countries</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">50M+</div>
+            <div class="stat-label">Merchants</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">0%</div>
+            <div class="stat-label">Fees on crypto</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Card + Form -->
+      <div class="hero-card-side">
+
+        <!-- 3D Card -->
+        <div class="card-3d-wrapper" id="cardWrapper">
+          <div class="card-3d" id="card3d">
+            <div class="card-shimmer"></div>
+            <div class="card-logo">
+              <svg viewBox="-28 -28 56 56" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="0" cy="-19" rx="7" ry="19" fill="rgba(255,255,255,0.75)" transform="rotate(0)"/>
+                <ellipse cx="0" cy="-19" rx="7" ry="19" fill="rgba(220,200,244,0.70)" transform="rotate(72)"/>
+                <ellipse cx="0" cy="-19" rx="7" ry="19" fill="rgba(200,170,230,0.70)" transform="rotate(144)"/>
+                <ellipse cx="0" cy="-19" rx="7" ry="19" fill="rgba(240,225,255,0.75)" transform="rotate(216)"/>
+                <ellipse cx="0" cy="-19" rx="7" ry="19" fill="rgba(170,130,210,0.65)" transform="rotate(288)"/>
+                <circle cx="0" cy="0" r="6" fill="rgba(120,72,192,0.8)"/>
+                <circle cx="0" cy="0" r="2.5" fill="rgba(255,245,255,0.9)"/>
+              </svg>
+              <span class="card-logo-text">Lilac</span>
+            </div>
+            <div class="card-glow-dot"></div>
+            <div class="card-chip"></div>
+            <div class="card-number">•••• •••• •••• 4291</div>
+            <div class="card-name">Your Name</div>
+            <div class="card-network">
+              <div class="card-network-circle"></div>
+              <div class="card-network-circle"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Widget -->
+        <div class="form-widget">
+
+          <!-- Step: Email -->
+          <div id="step-email" class="step active">
+            <div class="step-label">Waitlist</div>
+            <p class="step-title">Get in line for early access to Lilac Card</p>
+            <div class="email-row">
+              <input type="email" id="email-input" placeholder="Enter your email" autocomplete="email">
+              <button class="btn-primary" id="join-btn">
+                <span id="join-btn-label">Next →</span>
+                <span id="join-btn-spinner" style="display:none">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                      <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="0.8s" repeatCount="indefinite"/>
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div class="error-msg" id="email-error"></div>
+            <p class="agree-text">By clicking 'next,' you agree to receive updates about Lilac Card. See our <a href="https://lilac.app/privacy-policy" target="_blank">Privacy Policy</a>.</p>
+          </div>
+
+          <!-- Step: Success -->
+          <div id="step-success" class="step">
+            <div class="success-inner">
+              <div class="check-circle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <p class="success-title">You're on the list! 🎉</p>
+              <p id="success-subtitle" class="success-subtitle"></p>
+            </div>
+          </div>
+
+        </div><!-- /form-widget -->
+      </div><!-- /hero-card-side -->
+    </div><!-- /hero-inner -->
+  </section>
+
+  <!-- ABOUT / MARQUEE -->
+  <div class="section-about">
+    <p class="about-quote">
+      <span class="highlight">Lilac</span> card turns your balance into instant <span class="highlight"> spending power</span>.
+    </p>
+    <div class="marquee-wrap">
+      <div class="marquee-track" id="marquee">
+        <span class="marquee-item"><span class="marquee-dot"></span>Virtual &amp; Physical Card</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>50M+ Merchants</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>150+ Countries</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Instant Conversion</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Tap to Pay</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Earn Rewards</span>
+        <!-- Duplicate for seamless loop -->
+        <span class="marquee-item"><span class="marquee-dot"></span>Virtual &amp; Physical Card</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>50M+ Merchants</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>150+ Countries</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Instant Conversion</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Tap to Pay</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Earn Rewards</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="section-label">Why Lilac Card?</div>
+    <h2 class="section-title">Everything you need,<br>nothing you don't</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <div class="feature-title">Virtual &amp; Physical</div>
+        <p class="feature-text">Get a virtual card instantly and a physical card delivered. Use both anywhere Visa is accepted.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-title">Instant Spending</div>
+        <p class="feature-text">Spend your crypto balance without selling. Lilac converts at the point of sale, seamlessly.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌍</div>
+        <div class="feature-title">Global Acceptance</div>
+        <p class="feature-text">Accepted at 50M+ merchants and ATMs across 150+ countries. Your card works everywhere.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <div class="feature-title">Stay Productive</div>
+        <p class="feature-text">Your balance keeps earning while you spend. No need to choose between holding and spending.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💜</div>
+        <div class="feature-title">Earn Rewards</div>
+        <p class="feature-text">Get rewards on every purchase. </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">♻️</div>
+        <div class="feature-title">Repay on your Terms</div>
+        <p class="feature-text">Settle directly from your Lilac balance. No transfers, no complexity. </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="faq">
+    <div class="footer-inner">
+      <div>
+        <h2 class="footer-cta-title">Be first<br>in line</h2>
+        <p class="footer-cta-sub">Join the waitlist to get in line for early access to Lilac Card.</p>
+        <a href="#hero" class="btn-cta-large">Join the waitlist →</a>
+      </div>
+      <div class="footer-cards">
+        <div class="footer-info-card">
+          <p class="footer-info-label">Partnership</p>
+          <p class="footer-info-text">Lilac Card is a product in development in partnership with <a href="https://www.redotpay.com/" target="_blank">RedotPay</a>. Details and features subject to change.</p>
+        </div>
+        <div class="footer-info-card">
+          <p class="footer-info-label">Licence</p>
+          <p class="footer-info-text">Money Lender's Licence No: [0506/2026]<br>Hotline: (872) 216 8805</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-row">
+      <p class="footer-disclaimer">Nothing on this page constitutes legal, tax, or financial advice. Card eligibility subject to KYC and other eligibility criteria. Disclaimer: You have to repay your loans. Don't pay any intermediaries.</p>
+      <div class="footer-links">
+        <a href="https://lilac.app/faq" target="_blank">FAQ</a>
+        <a href="https://lilac.app/privacy-policy" target="_blank">Privacy notice</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
